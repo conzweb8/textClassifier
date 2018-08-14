@@ -9,10 +9,10 @@
 import Cocoa
 
 class ViewController: NSViewController {
-    let serverHost = "35.192.129.194"
+//    let serverHost = "35.192.129.194"
     var responseString = ""
     var resultString = ""
-//    let serverHost = "127.0.0.1"
+    let serverHost = "127.0.0.1"
     
     @IBOutlet var viewMain: NSView!
     @IBOutlet weak var progressInd: NSProgressIndicator!
